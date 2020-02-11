@@ -22,4 +22,8 @@ MAN=
 
 BINDIR?= /usr/sbin
 
+# 577 edit start
+SRCS+= vfsexercise.c
+# 577 edit end
+
 .include <minix.bootprog.mk>
