@@ -66,6 +66,10 @@
 #define GETMCONTEXT       67
 #define SETMCONTEXT       68
 
+/* 577 edit start */
+#define PRINTMSG	69
+/* 577 edit end */
+
 /* Posix signal handling. */
 #define SIGACTION	  71
 #define SIGSUSPEND	  72
