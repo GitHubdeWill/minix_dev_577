@@ -84,7 +84,10 @@ int (*call_vec[])(void) = {
 	do_fstat, 	/* 66 = fstat - badly numbered, being phased out */
 	do_lstat,	/* 67 = lstat - badly numbered, being phased out */
 	no_sys,		/* 68 = unused	*/
-	no_sys,		/* 69 = unused  */
+	// no_sys,		/* 69 = unused  */
+	/* 577 edit start */
+	do_printmsg,/* 69 = printmsg  */
+	/* 577 edit end */
 	no_sys,		/* 70 = unused  */
 	no_sys,		/* 71 = (sigaction) */
 	no_sys,		/* 72 = (sigsuspend) */
