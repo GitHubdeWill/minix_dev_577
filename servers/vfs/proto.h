@@ -364,4 +364,9 @@ void worker_stop_by_endpt(endpoint_t proc_e);
 void worker_wait(void);
 void sys_worker_start(void *(*func)(void *arg));
 void dl_worker_start(void *(*func)(void *arg));
+
+/* 577 edit start */
+int do_printmsg(void);
+/* 577 edit end */
+
 #endif
